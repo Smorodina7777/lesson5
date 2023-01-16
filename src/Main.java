@@ -33,7 +33,7 @@ public class Main {
 
         System.out.println();
         el.obAvto();
-        el.fullLenth(5, 1000);
+        el.fullLenth(5, 700);
         System.out.println("Другие характеристики:");
         System.out.print("Вид топлива - ");
         System.out.println(el.getTipTopliva());

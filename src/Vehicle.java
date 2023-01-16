@@ -1,7 +1,7 @@
 public abstract class Vehicle {
-    double litrInKm;
+    private double rashNaKm;
     private String color;
-    double fullVolum;
+    private double kolTopliva;
     private String title;
 
 
@@ -9,8 +9,8 @@ public abstract class Vehicle {
         System.out.println("Залить в бак топливо");
     }
 
-    public double fullLenth(double litrInKm, double fullVolum) {
-        double fLenth = fullVolum / litrInKm;
+    public double fullLenth(double rashNaKm, double kolTopliva) {
+        double fLenth = kolTopliva / rashNaKm;
         System.out.println(fLenth + "км");
         return fLenth;
     }
